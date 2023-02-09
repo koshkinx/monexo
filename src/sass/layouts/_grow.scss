@@ -1,0 +1,101 @@
+.grow {
+  padding: 50px 0px 50px 0px;
+}
+.grow_box {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.grow_box_image {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.grow_image {
+  width: 436px;
+  height: 439px;
+  @media screen and (max-width: 767px) {
+    width: 236px;
+    height: 239px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 336px;
+    height: 339px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 436px;
+    height: 439px;
+  }
+}
+.grow_box_title {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.grow_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 25px;
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0px 150px 0px 0px;
+    font-size: 45px;
+  }
+}
+.grow_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 45px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0px 228px 0px 0px;
+  }
+}
+.grow_text_green {
+  color: #52b69a;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 1.4em;
+  margin-bottom: 50px;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 0px 252px 0px 0px;
+  }
+}

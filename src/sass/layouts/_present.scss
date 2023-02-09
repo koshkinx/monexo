@@ -1,0 +1,141 @@
+.present {
+  padding: 50px 0px 50px 0px;
+  background-color: #eaeaea63;
+}
+.present_box__title {
+  text-align: center;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.present_title__color {
+  background: linear-gradient(254.28deg, #ceefe9 -20.22%, #0c849c 111.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.present_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+.present_box__text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.present_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.present_box__position {
+  margin-bottom: 20px;
+}
+.present_box__plans {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    justify-content: center;
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.present_card {
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #d9ed92;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #2b3453;
+  padding: 20px 30px;
+}
+.present_box_plans_change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+.present_box__change {
+  @media screen and (max-width: 767px) {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  margin-right: 100px;
+}
+.present_box__card {
+  max-width: 800px;
+}
+.present_daily__link {
+  color: #2b3453;
+  cursor: pointer;
+  background-color: #d9ed92;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  font-family: Volkhov, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  &:hover,
+  &:focus {
+    background-color: #2b3453;
+    color: white;
+  }
+}
+.present_weekly__link {
+  color: #2b3453;
+  cursor: pointer;
+  background-color: #d9ed92;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  font-family: Volkhov, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  &:hover,
+  &:focus {
+    background-color: #2b3453;
+    color: white;
+  }
+}
+.present_daily {
+  margin-bottom: 50px;
+}
+.card_list {
+  margin-bottom: 30px;
+}
+.cart_title {
+  margin-bottom: 10px;
+}
+.card_name__item {
+  margin-bottom: 5px;
+}
+.card_set {
+  display: flex;
+  width: 300px;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    width: 0;
+  }
+}
+.card_box_salary {
+  width: 50%;
+}
+.card_box__total {
+  width: 50%;
+}
+.active {
+  background-color: #2b3453;
+  color: white;
+}

@@ -1,0 +1,58 @@
+.customers {
+  background-color: #2b3453;
+  padding: 50px 0px 50px 0px;
+}
+.customers_box__title {
+  text-align: center;
+}
+.customers_title {
+  color: #ceefe9;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+.customers_title__color {
+  color: #d9ed92;
+}
+.carusel {
+  margin-top: 50px;
+  max-width: 1680px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.carusel_card {
+  background-color: #d9ed92;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+  margin-right: 20px;
+}
+.card_carusel__image {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.carusel_card__title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.carusel_card__text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.carusel_box__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main-carousel .flickity-page-dots .dot {
+  background-color: lemonchiffon;
+}

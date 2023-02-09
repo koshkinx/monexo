@@ -1,0 +1,90 @@
+.why_grow {
+  padding: 50px 0px 50px 0px;
+}
+.why_grow_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 25px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.why_grow_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.why_grow__item {
+  max-width: 325px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #2b3453;
+  box-shadow: 3px 4px 10px 0px rgb(0 0 0 / 9%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 0px 20px 0px 20px;
+  border-radius: 22px 22px 22px 22px;
+  min-height: 304px;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.carusel_item_image {
+  width: 94px;
+  height: 94px;
+  margin-bottom: 20px;
+}
+.carusel_item_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+.carusel_item_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.flickity-enabled.is-draggable {
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}

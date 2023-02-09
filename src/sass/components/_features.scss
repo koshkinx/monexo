@@ -1,0 +1,91 @@
+.features {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 160px 0px 60px 0px;
+  background-color: #ceefe9;
+  background-image: url(../images/features_hero.png);
+  background-position: 0px 20%;
+  background-repeat: no-repeat;
+  background-size: 43% auto;
+  @media screen and (max-width: 767px) {
+    background-size: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.features_box {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.features_box__visible {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 40%;
+  }
+}
+.features_box__title {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    margin-top: 200px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+    margin-top: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 57%;
+  }
+}
+.features_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+.features_title_down {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.features_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+}
+.features_link {
+  box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: transparent;
+  background-image: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 17px 25px 32px -7px rgb(82 182 154 / 18%);
+  padding: 20px 35px 20px 35px;
+  color: white;
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: linear-gradient(92.86deg, #2b3453 0%, #08899a 100%);
+  }
+}

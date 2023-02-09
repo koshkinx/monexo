@@ -1,0 +1,61 @@
+.why_individ {
+  padding: 50px 0px 50px 0px;
+  @media screen and (max-width: 767px) {
+    padding: 20px 0px 20px 0px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.why_individ_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.why_individ_image_box {
+}
+.why_individ_text_box {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding-right: 65px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-right: 65px;
+  }
+}
+.why_individ_image {
+  width: 531px;
+  height: 473px;
+  @media screen and (max-width: 767px) {
+    width: 300px;
+    height: 273px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.why_individ_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.why_individ_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+}

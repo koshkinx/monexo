@@ -1,0 +1,117 @@
+:root {
+  --primary-text-color: #000000;
+  --second-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --accent-link-color: #757575;
+  --main-text-color: #ffffff;
+  --background-color: #2f303a;
+  --background-color-section: #ececec;
+  --background-color-list: #f5f4fa;
+  --icon-color-team: #afb1b8;
+  --background-hero: #c4c4c4;
+}
+.title_parten {
+  font-size: 70px;
+  color: #000000;
+}
+.link-current_show {
+  background-color: #ceefe9;
+  border-radius: 50px;
+  padding: 6px 25px;
+}
+.hover_block.is-open {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hover_block {
+  opacity: 1;
+  max-width: 767px;
+  width: 100%;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  transition: background-color 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  box-shadow: 0px 0px 32px 0px rgb(43 52 83 / 10%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 10px 10px 10px 10px;
+  border-radius: 16px 16px 16px 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hover_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.33em;
+  padding: 15px 15px 15px 15px;
+}
+.hover_border {
+  border-top: 1px solid #2b34531a;
+  margin-bottom: 10px;
+}
+.hover_box {
+  display: flex;
+  padding: 15px 15px 15px 15px;
+}
+
+.hover_box__site {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
+  &:hover,
+  &:focus {
+    background-color: #eaebee;
+    border-radius: 18px;
+  }
+}
+.hover_box__image {
+  width: 68px;
+  height: 68px;
+  margin-right: 15px;
+  filter: drop-shadow(1px 0 0 black) drop-shadow(0 1px 0 black)
+    drop-shadow(-1px 0 0 black) drop-shadow(0 -1px 0 black);
+}
+.hover_box__text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+}
+.hover_box__title {
+  margin-bottom: 10px;
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+.carousel-cell.example {
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 50%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 320px;
+  }
+}

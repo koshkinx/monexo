@@ -1,0 +1,245 @@
+.investment {
+  padding: 50px 0px 50px 0px;
+  background-color: #d9ed92a8;
+}
+.investment_box {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+  }
+}
+.investment_box__title {
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 30px;
+  }
+}
+.investment_box__card {
+  position: relative;
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.investment_title {
+  font-size: 25px;
+  background: linear-gradient(254.28deg, #ceefe9 -20.22%, #0c849c 111.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.invesment_text {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.3em;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.investment_card__first {
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  filter: drop-shadow(0px 0px 59px rgba(43, 52, 83, 0.1));
+  @media screen and (max-width: 767px) {
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 445px;
+    padding: 30px 80px 30px 30px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 445px;
+    padding: 30px 80px 30px 30px;
+  }
+}
+.investment_first_box__image {
+  display: flex;
+  align-items: baseline;
+}
+.investment_first__image {
+  width: 62px;
+  height: 57px;
+  margin-right: 20px;
+}
+.investment_first__title {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1em;
+}
+.investment_first__text_box {
+}
+.investment_first__text {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+    padding-right: 60px;
+  }
+}
+.investment_card__second {
+  border-radius: 20px 20px 20px 20px;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+
+  background-color: white;
+
+  filter: drop-shadow(0px 0px 59px rgba(43, 52, 83, 0.1));
+  @media screen and (max-width: 767px) {
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 312px;
+    margin-top: -150px;
+    position: absolute;
+    width: 332px;
+    padding: 30px 30px 30px 30px;
+  }
+}
+.investment_card_second__box {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+  }
+}
+.investment_second__image {
+  width: 74px;
+  height: 73px;
+  margin-bottom: 25px;
+  @media screen and (max-width: 767px) {
+    margin-right: 20px;
+  }
+}
+.investment_secont__title {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 25px;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1em;
+}
+.invesrment_second__text {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.investment_card__third {
+  background-color: white;
+
+  border-radius: 20px 20px 20px 20px;
+
+  filter: drop-shadow(0px 0px 59px rgba(43, 52, 83, 0.1));
+
+  @media screen and (max-width: 767px) {
+    padding: 20px 20px 20px 20px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    padding: 20px 20px 20px 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 30px 30px 30px 30px;
+    width: 444px;
+    margin: 10px 0px 0px -140px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: -140px;
+  }
+}
+.investment_card__third_box__image {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 25px;
+}
+.investment_third__image {
+  width: 59px;
+  height: 58px;
+  margin-right: 25px;
+}
+.investment_third__title {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1em;
+}
+.investment_third_box__text {
+}
+.investment_third__text {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5em;
+}

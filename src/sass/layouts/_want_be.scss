@@ -1,0 +1,42 @@
+.want_be {
+  background-color: #ceefe9;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 50px 0px 50px 0px;
+}
+.want_be_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.want_be_title__color {
+  background: linear-gradient(254.28deg, #ceefe9 -20.22%, #0c849c 111.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.want_be_text {
+  text-align: center;
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.want_be_button_box {
+  margin-top: 50px;
+  text-align: center;
+}
+.want_be_button {
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  fill: white;
+  color: white;
+  background-color: #2b3453;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 35px 15px 35px;
+}

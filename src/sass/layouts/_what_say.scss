@@ -1,0 +1,43 @@
+.what_say {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.what_say__title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.what_say__title__color {
+  background: linear-gradient(254.28deg, #ceefe9 -20.22%, #0c849c 111.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.what_say__box_carusel {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.what_say__image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50% 50% 50% 50%;
+  margin-right: 20px;
+}
+.what_say__title_carusel {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+.what_say__text_carusel {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4em;
+}

@@ -1,0 +1,171 @@
+.hero {
+  background-color: #eaeaea63;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    background-color: #eaeaea63;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    background-image: url(../images/backgroundImg.png);
+    background-position: 800px 310px;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    padding: 120px 180px;
+    margin-top: 100px;
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/backgroundImg.png);
+    background-position: 800px 310px;
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s,
+      box-shadow 0.3s;
+    padding: 120px 0px 180px 0px;
+    margin-top: 100px;
+    display: flex;
+  }
+}
+.hero_box {
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: unset;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+}
+.hero_box__title_container {
+  @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+  }
+}
+.hero_box__title {
+  @media screen and (max-width: 767px) {
+    max-width: 767px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 55%;
+  }
+}
+.hero_box__phone {
+  @media screen and (max-width: 767px) {
+    max-width: 767px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 44.782%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: none;
+  }
+}
+.hero_box__title_el {
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.hero_title {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.hero_title_position {
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.hero_title_second {
+  @media screen and (max-width: 767px) {
+    font-size: 35px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 70px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 70px;
+  }
+  color: #52b69a;
+  font-family: 'Volkhov', Sans-serif;
+
+  font-weight: 600;
+  margin: 0;
+}
+.title_color {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.title_position {
+  padding: 0px 260px 0px 0px;
+}
+.hero_title_third {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.hero_button {
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: transparent;
+  background-image: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 17px 25px 32px -7px rgb(82 182 154 / 18%);
+  padding: 20px 35px 20px 35px;
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: linear-gradient(92.86deg, #2b3453 0%, #08899a 100%);
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+}
+.hero_button__text {
+  color: white;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.hero_phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 350px;
+}

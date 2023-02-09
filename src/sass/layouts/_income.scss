@@ -1,0 +1,125 @@
+.income {
+  padding: 60px 0px 50px 0px;
+  background-color: #eff8d9;
+}
+.income_box {
+  display: flex;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+  }
+}
+.income_image_box {
+  @media screen and (max-width: 767px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+.income_image {
+  width: 313px;
+  height: 604px;
+  @media screen and (max-width: 767px) {
+    width: 213px;
+    height: 404px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 213px;
+    height: 404px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 313px;
+    height: 604px;
+  }
+}
+.income_title_box {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.income_title {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+.income_title_down {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4em;
+  margin-bottom: 50px;
+}
+.income_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+    padding-right: 150px;
+  }
+}
+.income_title_last {
+  color: #2b3453;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+.income_image_app {
+  width: 179px;
+  height: 67px;
+}
+.income_list {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.income_item {
+  @media screen and (max-width: 767px) {
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}

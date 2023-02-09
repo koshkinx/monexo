@@ -1,0 +1,46 @@
+{{#each this}}
+  <div class='present_card'>
+
+    <h2 class='cart_title'>{{name}}</h2>
+    <ul class='card_list'>
+      <li class='card_name__item'>{{option}}</li>
+      <li class='card_name__item'>{{description}}</li>
+      <li class='card_name__item'>{{part}}</li>
+    </ul>
+    <div class='card_set'>
+      <div class='card_box_salary'>
+        <h3 class='card_title__salary'>{{salary}}</h3>
+        <ul class='card_salary__list'>
+          <li class='card_salary__item'>
+            <p>{{min}}</p>
+          </li>
+          <li class='card_salary__item'>
+            <p>{{max}}</p>
+          </li>
+        </ul>
+      </div>
+      <div class='card_box__profit'>
+        <h3 class='card_title__profit'>{{profit}}</h3>
+        <ul class='card_profit__list'>
+          <li class='card_profit__item'>
+            <p>{{min-profit}}</p>
+          </li>
+          <li class='card_profit__item'>
+            <p>{{max-profit}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='card_set'>
+      <div class='card_box__total'>
+        <h3>{{total}}</h3>
+        <p>{{total-percent}}</p>
+      </div>
+      <div class='bonus'>
+        <h3>{{bonus}}</h3>
+        <p>{{number}}</p>
+      </div>
+    </div>
+
+  </div>
+{{/each}}

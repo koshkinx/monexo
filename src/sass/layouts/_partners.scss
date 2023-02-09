@@ -1,0 +1,103 @@
+.partenrs {
+  background-color: #2b3453;
+}
+.partners_box {
+  max-width: 800px;
+  padding-bottom: 60px;
+}
+.partners_list {
+  @media screen and (max-width: 767px) {
+    margin: 0;
+    display: block;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.partenrs_list__item {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+  @media screen and (max-width: 767px) {
+    margin: 0;
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+.partners_item__box {
+  min-height: 374px;
+  border-style: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #d9ed92;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  border-radius: 25px 25px 25px 25px;
+  background-color: #d9ed921a;
+}
+.partners_item__box_text {
+  padding: 20px 0px 0px 30px;
+}
+.partners_item__text {
+  color: #d9ed92;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 600;
+  line-height: 1.33em;
+}
+.partners_item__box_image {
+  width: 100%;
+}
+.box_image {
+  padding: 60px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.image_monexo {
+  width: 161px;
+  height: 278px;
+}
+.box_image__size {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+}
+.partners_text__box {
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+}
+
+.partners_text {
+  color: #d9ed92;
+  font-family: 'Poppins', Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1;
+}
+.partners_text_invest {
+  color: white;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.partners_invest {
+  margin-top: 30px;
+  text-align: center;
+}
+.partners_invest__box {
+  margin-bottom: 30px;
+}
+.partenrs_button {
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  color: #2b3453;
+  background-color: #d9ed92;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px 35px 15px 35px;
+  cursor: pointer;
+}

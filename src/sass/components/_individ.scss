@@ -1,0 +1,90 @@
+.individ_hero {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  @media screen and (max-width: 767px) {
+    padding-top: 50px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  }
+  @media screen and (min-width: 1200px) {
+  }
+}
+.individ_box {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+.individ_box__title {
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  justify-content: center;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+.individ_title {
+  color: #52b69a;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.individ_title__color {
+  background: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+// .individ_box__image {
+// }
+
+.individ_text {
+  color: #2b3453;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+}
+.individ_box__link {
+  margin-top: 60px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 50px;
+  }
+}
+.individ_link {
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: transparent;
+  background-image: linear-gradient(92.86deg, #08899a -41.61%, #2b3453 100.5%);
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 17px 25px 32px -7px rgb(82 182 154 / 18%);
+  padding: 20px 35px 20px 35px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 18px 50px -10px;
+  color: white;
+  &:hover,
+  &:focus {
+    color: #ffffff;
+    background-color: transparent;
+    background-image: linear-gradient(92.86deg, #2b3453 0%, #08899a 100%);
+  }
+}
+.individ_image {
+  width: 549px;
+  height: 519px;
+  @media screen and (max-width: 767px) {
+    width: 249px;
+    height: 219px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 249px;
+    height: 219px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 549px;
+    height: 519px;
+  }
+}

@@ -1,0 +1,34 @@
+.about {
+  background-color: #2b3453;
+}
+.about_box {
+  padding: 50px 0px 30px 0px;
+}
+.about_box__title {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+.about_title {
+  color: #ceefe9;
+  font-family: 'Volkhov', Sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1;
+}
+.about_title__color {
+  color: #d9ed92;
+}
+.about_box__title__size {
+  padding: 10px 30px 10px 30px;
+}
+.about_title__text {
+  color: #ffffff;
+  font-family: 'Poppins', Sans-serif;
+  font-weight: 500;
+  line-height: 1.4em;
+}
