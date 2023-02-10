@@ -35,6 +35,7 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    justify-content: space-evenly;
   }
 
   @media screen and (min-width: 1200px) {
@@ -42,6 +43,7 @@
     flex-wrap: wrap;
     margin-left: -30px;
     margin-top: -30px;
+    justify-content: space-evenly;
   }
 }
 .simple_item {
@@ -69,6 +71,7 @@
   height: 54px;
 }
 .simple_item__title {
+  align-self: center;
   color: #2b3453;
   font-family: 'Volkhov', Sans-serif;
   font-size: 22px;

@@ -89,8 +89,9 @@
 .hero_title {
   color: #2b3453;
   font-family: 'Poppins', Sans-serif;
-  font-size: 25px;
+  font-size: 55px;
   font-weight: 600;
+  text-align: center;
 }
 .hero_title_position {
   &:not(:last-child) {
@@ -99,17 +100,17 @@
 }
 .hero_title_second {
   @media screen and (max-width: 767px) {
-    font-size: 35px;
+    font-size: 25px;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    font-size: 70px;
+    font-size: 25px;
   }
   @media screen and (min-width: 1200px) {
-    font-size: 70px;
+    font-size: 25px;
   }
   color: #52b69a;
   font-family: 'Volkhov', Sans-serif;
-
+  text-align: center;
   font-weight: 600;
   margin: 0;
 }
